@@ -9,11 +9,12 @@
           <router-link to="/" class="nav-link" active-class="active">仪表板</router-link>
           <router-link to="/device" class="nav-link" active-class="active">设备信息</router-link>
           <router-link to="/command" class="nav-link" active-class="active">命令控制</router-link>
+          <router-link to="/camera" class="nav-link" active-class="active">视频监控</router-link>
           <router-link to="/message" class="nav-link" active-class="active">消息中心</router-link>
         </div>
       </div>
     </nav>
-    
+
     <main class="main-content">
       <router-view />
     </main>
@@ -87,13 +88,13 @@
     flex-direction: column;
     gap: 1rem;
   }
-  
+
   .nav-menu {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
-  
+
   .main-content {
     padding: 0 1rem;
   }
